@@ -1,0 +1,210 @@
+2026-03-12 04:33:37,363 - Using device: cuda
+2026-03-12 04:33:37,364 - Train samples: 30, Val samples: 6
+2026-03-12 04:39:20,377 - Using device: cuda
+2026-03-12 04:39:20,378 - Train samples: 30, Val samples: 6
+2026-03-12 04:39:39,823 - Epoch 1 completed | Time: 19.36s | Avg Loss: 14.8685 | Avg EPE: 15.1175 | LR: 0.001000
+2026-03-12 04:40:00,320 - Epoch 2 completed | Time: 20.49s | Avg Loss: 7.3030 | Avg EPE: 7.5512 | LR: 0.001000
+2026-03-12 04:40:20,495 - Epoch 3 completed | Time: 20.17s | Avg Loss: 5.3768 | Avg EPE: 5.6242 | LR: 0.001000
+2026-03-12 04:40:39,312 - Epoch 4 completed | Time: 18.82s | Avg Loss: 5.7583 | Avg EPE: 6.0059 | LR: 0.001000
+2026-03-12 04:40:58,513 - Epoch 5 completed | Time: 19.20s | Avg Loss: 5.4026 | Avg EPE: 5.6502 | LR: 0.001000
+2026-03-12 04:41:04,230 - Validation | EPE: 6.5949 | 0.5PER: 96.25% | 1PER: 92.53% | 3PER: 78.21%
+2026-03-12 04:41:04,344 - Best model saved with EPE 6.5949
+2026-03-12 04:41:24,762 - Epoch 6 completed | Time: 20.42s | Avg Loss: 4.2749 | Avg EPE: 4.5221 | LR: 0.001000
+2026-03-12 04:41:59,861 - Using device: cuda
+2026-03-12 04:41:59,861 - Train samples: 30, Val samples: 6
+2026-03-12 04:42:13,668 - Using device: cuda
+2026-03-12 04:42:13,669 - Train samples: 30, Val samples: 6
+2026-03-12 04:42:47,591 - Using device: cuda
+2026-03-12 04:42:47,592 - Train samples: 30, Val samples: 6
+2026-03-12 04:43:07,279 - Epoch 1 completed | Time: 19.58s | Avg Loss: 16.4810 | Avg EPE: 16.7302 | LR: 0.001000
+2026-03-12 04:43:26,493 - Epoch 2 completed | Time: 19.21s | Avg Loss: 7.6786 | Avg EPE: 7.9267 | LR: 0.001000
+2026-03-12 04:43:45,805 - Epoch 3 completed | Time: 19.31s | Avg Loss: 7.4605 | Avg EPE: 7.7086 | LR: 0.001000
+2026-03-12 04:44:06,436 - Epoch 4 completed | Time: 20.63s | Avg Loss: 5.6485 | Avg EPE: 5.8962 | LR: 0.001000
+2026-03-12 04:44:26,252 - Epoch 5 completed | Time: 19.82s | Avg Loss: 6.4215 | Avg EPE: 6.6696 | LR: 0.001000
+2026-03-12 04:44:32,849 - Validation | EPE: 17.4854 | 0.5PER: 99.94% | 1PER: 99.87% | 3PER: 99.57%
+2026-03-12 04:44:33,032 - Best model saved with EPE 17.4854
+2026-03-12 04:44:53,578 - Epoch 6 completed | Time: 20.55s | Avg Loss: 4.3462 | Avg EPE: 4.5925 | LR: 0.001000
+2026-03-12 04:45:12,862 - Epoch 7 completed | Time: 19.28s | Avg Loss: 4.8100 | Avg EPE: 5.0574 | LR: 0.001000
+2026-03-12 04:45:31,220 - Epoch 8 completed | Time: 18.36s | Avg Loss: 5.9270 | Avg EPE: 6.1749 | LR: 0.001000
+2026-03-12 04:45:49,629 - Epoch 9 completed | Time: 18.41s | Avg Loss: 4.4178 | Avg EPE: 4.6649 | LR: 0.001000
+2026-03-12 04:46:08,333 - Epoch 10 completed | Time: 18.70s | Avg Loss: 5.6756 | Avg EPE: 5.9233 | LR: 0.001000
+2026-03-12 04:46:14,009 - Validation | EPE: 10.7266 | 0.5PER: 99.63% | 1PER: 99.16% | 3PER: 95.88%
+2026-03-12 04:46:14,112 - Best model saved with EPE 10.7266
+2026-03-12 04:46:14,162 - Checkpoint saved at epoch 10
+2026-03-12 04:46:32,564 - Epoch 11 completed | Time: 18.40s | Avg Loss: 4.6534 | Avg EPE: 4.9006 | LR: 0.001000
+2026-03-12 04:46:50,893 - Epoch 12 completed | Time: 18.33s | Avg Loss: 4.1832 | Avg EPE: 4.4302 | LR: 0.001000
+2026-03-12 04:47:09,373 - Epoch 13 completed | Time: 18.48s | Avg Loss: 3.6281 | Avg EPE: 3.8744 | LR: 0.001000
+2026-03-12 04:47:27,798 - Epoch 14 completed | Time: 18.42s | Avg Loss: 4.4163 | Avg EPE: 4.6635 | LR: 0.001000
+2026-03-12 04:47:46,134 - Epoch 15 completed | Time: 18.33s | Avg Loss: 3.7436 | Avg EPE: 3.9902 | LR: 0.001000
+2026-03-12 04:47:51,908 - Validation | EPE: 14.8858 | 0.5PER: 99.96% | 1PER: 99.92% | 3PER: 99.11%
+2026-03-12 04:48:10,220 - Epoch 16 completed | Time: 18.31s | Avg Loss: 3.5811 | Avg EPE: 3.8276 | LR: 0.001000
+2026-03-12 04:48:28,557 - Epoch 17 completed | Time: 18.34s | Avg Loss: 3.5322 | Avg EPE: 3.7788 | LR: 0.001000
+2026-03-12 04:48:46,883 - Epoch 18 completed | Time: 18.33s | Avg Loss: 3.2770 | Avg EPE: 3.5231 | LR: 0.001000
+2026-03-12 04:49:05,256 - Epoch 19 completed | Time: 18.37s | Avg Loss: 3.1269 | Avg EPE: 3.3729 | LR: 0.001000
+2026-03-12 04:49:24,128 - Epoch 20 completed | Time: 18.87s | Avg Loss: 2.9315 | Avg EPE: 3.1774 | LR: 0.001000
+2026-03-12 04:49:30,480 - Validation | EPE: 17.8338 | 0.5PER: 100.00% | 1PER: 99.99% | 3PER: 99.67%
+2026-03-12 04:49:30,534 - Checkpoint saved at epoch 20
+2026-03-12 04:49:50,356 - Epoch 21 completed | Time: 19.82s | Avg Loss: 4.0072 | Avg EPE: 4.2545 | LR: 0.001000
+2026-03-12 04:50:09,821 - Epoch 22 completed | Time: 19.46s | Avg Loss: 2.7713 | Avg EPE: 3.0168 | LR: 0.001000
+2026-03-12 04:50:29,487 - Epoch 23 completed | Time: 19.67s | Avg Loss: 3.3701 | Avg EPE: 3.6168 | LR: 0.001000
+2026-03-12 04:50:48,780 - Epoch 24 completed | Time: 19.29s | Avg Loss: 2.9606 | Avg EPE: 3.2065 | LR: 0.001000
+2026-03-12 04:51:08,157 - Epoch 25 completed | Time: 19.38s | Avg Loss: 2.7754 | Avg EPE: 3.0203 | LR: 0.001000
+2026-03-12 04:51:14,485 - Validation | EPE: 16.6487 | 0.5PER: 99.99% | 1PER: 99.96% | 3PER: 99.25%
+2026-03-12 04:51:33,366 - Epoch 26 completed | Time: 18.88s | Avg Loss: 3.2187 | Avg EPE: 3.4646 | LR: 0.001000
+2026-03-12 04:51:52,298 - Epoch 27 completed | Time: 18.93s | Avg Loss: 3.3450 | Avg EPE: 3.5916 | LR: 0.001000
+2026-03-12 04:52:11,018 - Epoch 28 completed | Time: 18.72s | Avg Loss: 2.6340 | Avg EPE: 2.8790 | LR: 0.001000
+2026-03-12 04:52:29,645 - Epoch 29 completed | Time: 18.63s | Avg Loss: 2.6607 | Avg EPE: 2.9064 | LR: 0.001000
+2026-03-12 04:52:48,555 - Epoch 30 completed | Time: 18.91s | Avg Loss: 2.5004 | Avg EPE: 2.7457 | LR: 0.001000
+2026-03-12 04:52:54,212 - Validation | EPE: 15.1712 | 0.5PER: 99.91% | 1PER: 99.82% | 3PER: 98.59%
+2026-03-12 04:52:54,264 - Checkpoint saved at epoch 30
+2026-03-12 04:53:12,755 - Epoch 31 completed | Time: 18.49s | Avg Loss: 3.0966 | Avg EPE: 3.3424 | LR: 0.001000
+2026-03-12 04:53:33,598 - Epoch 32 completed | Time: 20.84s | Avg Loss: 2.5967 | Avg EPE: 2.8414 | LR: 0.001000
+2026-03-12 04:53:52,581 - Epoch 33 completed | Time: 18.98s | Avg Loss: 3.2721 | Avg EPE: 3.5181 | LR: 0.001000
+2026-03-12 04:54:12,331 - Epoch 34 completed | Time: 19.75s | Avg Loss: 2.9790 | Avg EPE: 3.2248 | LR: 0.001000
+2026-03-12 04:54:30,809 - Epoch 35 completed | Time: 18.48s | Avg Loss: 2.8353 | Avg EPE: 3.0807 | LR: 0.001000
+2026-03-12 04:54:36,622 - Validation | EPE: 14.9370 | 0.5PER: 99.88% | 1PER: 99.69% | 3PER: 98.04%
+2026-03-12 04:54:54,949 - Epoch 36 completed | Time: 18.33s | Avg Loss: 2.6858 | Avg EPE: 2.9310 | LR: 0.001000
+2026-03-12 04:55:13,148 - Epoch 37 completed | Time: 18.20s | Avg Loss: 2.3025 | Avg EPE: 2.5470 | LR: 0.001000
+2026-03-12 04:55:31,519 - Epoch 38 completed | Time: 18.37s | Avg Loss: 2.7520 | Avg EPE: 2.9974 | LR: 0.001000
+2026-03-12 04:55:50,048 - Epoch 39 completed | Time: 18.53s | Avg Loss: 2.3512 | Avg EPE: 2.5959 | LR: 0.001000
+2026-03-12 04:56:08,436 - Epoch 40 completed | Time: 18.39s | Avg Loss: 2.6414 | Avg EPE: 2.8868 | LR: 0.001000
+2026-03-12 04:56:15,833 - Validation | EPE: 11.5764 | 0.5PER: 99.22% | 1PER: 98.43% | 3PER: 96.04%
+2026-03-12 04:56:15,885 - Checkpoint saved at epoch 40
+2026-03-12 04:56:34,047 - Epoch 41 completed | Time: 18.16s | Avg Loss: 2.5771 | Avg EPE: 2.8224 | LR: 0.001000
+2026-03-12 04:56:52,234 - Epoch 42 completed | Time: 18.19s | Avg Loss: 2.6599 | Avg EPE: 2.9056 | LR: 0.001000
+2026-03-12 04:57:10,421 - Epoch 43 completed | Time: 18.19s | Avg Loss: 2.3516 | Avg EPE: 2.5958 | LR: 0.001000
+2026-03-12 04:57:28,538 - Epoch 44 completed | Time: 18.12s | Avg Loss: 2.1470 | Avg EPE: 2.3918 | LR: 0.001000
+2026-03-12 04:57:46,866 - Epoch 45 completed | Time: 18.33s | Avg Loss: 2.8047 | Avg EPE: 3.0507 | LR: 0.001000
+2026-03-12 04:57:52,336 - Validation | EPE: 16.8998 | 0.5PER: 99.90% | 1PER: 99.80% | 3PER: 99.51%
+2026-03-12 04:58:10,464 - Epoch 46 completed | Time: 18.13s | Avg Loss: 2.7294 | Avg EPE: 2.9748 | LR: 0.001000
+2026-03-12 04:58:28,584 - Epoch 47 completed | Time: 18.12s | Avg Loss: 3.0121 | Avg EPE: 3.2584 | LR: 0.001000
+2026-03-12 04:58:46,941 - Epoch 48 completed | Time: 18.36s | Avg Loss: 2.6305 | Avg EPE: 2.8759 | LR: 0.001000
+2026-03-12 04:59:05,128 - Epoch 49 completed | Time: 18.19s | Avg Loss: 2.5667 | Avg EPE: 2.8118 | LR: 0.001000
+2026-03-12 04:59:23,465 - Epoch 50 completed | Time: 18.34s | Avg Loss: 2.2912 | Avg EPE: 2.5365 | LR: 0.001000
+2026-03-12 04:59:29,078 - Validation | EPE: 14.2097 | 0.5PER: 99.80% | 1PER: 99.54% | 3PER: 97.79%
+2026-03-12 04:59:29,128 - Checkpoint saved at epoch 50
+2026-03-12 04:59:47,431 - Epoch 51 completed | Time: 18.30s | Avg Loss: 1.9741 | Avg EPE: 2.2175 | LR: 0.000100
+2026-03-12 05:00:05,621 - Epoch 52 completed | Time: 18.19s | Avg Loss: 1.8644 | Avg EPE: 2.1076 | LR: 0.000100
+2026-03-12 05:00:23,829 - Epoch 53 completed | Time: 18.21s | Avg Loss: 1.5939 | Avg EPE: 1.8363 | LR: 0.000100
+2026-03-12 05:00:41,969 - Epoch 54 completed | Time: 18.14s | Avg Loss: 1.7233 | Avg EPE: 1.9667 | LR: 0.000100
+2026-03-12 05:01:00,064 - Epoch 55 completed | Time: 18.09s | Avg Loss: 1.8127 | Avg EPE: 2.0561 | LR: 0.000100
+2026-03-12 05:01:06,004 - Validation | EPE: 14.3663 | 0.5PER: 99.82% | 1PER: 99.56% | 3PER: 97.72%
+2026-03-12 05:01:24,369 - Epoch 56 completed | Time: 18.36s | Avg Loss: 1.6619 | Avg EPE: 1.9049 | LR: 0.000100
+2026-03-12 05:01:42,645 - Epoch 57 completed | Time: 18.27s | Avg Loss: 1.7186 | Avg EPE: 1.9615 | LR: 0.000100
+2026-03-12 05:02:00,901 - Epoch 58 completed | Time: 18.26s | Avg Loss: 1.6475 | Avg EPE: 1.8897 | LR: 0.000100
+2026-03-12 05:02:19,395 - Epoch 59 completed | Time: 18.49s | Avg Loss: 1.8814 | Avg EPE: 2.1253 | LR: 0.000100
+2026-03-12 05:02:37,725 - Epoch 60 completed | Time: 18.33s | Avg Loss: 1.8904 | Avg EPE: 2.1339 | LR: 0.000100
+2026-03-12 05:02:43,308 - Validation | EPE: 14.3823 | 0.5PER: 99.86% | 1PER: 99.69% | 3PER: 98.10%
+2026-03-12 05:02:43,367 - Checkpoint saved at epoch 60
+2026-03-12 05:03:01,798 - Epoch 61 completed | Time: 18.43s | Avg Loss: 1.5669 | Avg EPE: 1.8092 | LR: 0.000100
+2026-03-12 05:03:20,142 - Epoch 62 completed | Time: 18.34s | Avg Loss: 1.6119 | Avg EPE: 1.8544 | LR: 0.000100
+2026-03-12 05:03:38,429 - Epoch 63 completed | Time: 18.29s | Avg Loss: 1.7884 | Avg EPE: 2.0310 | LR: 0.000100
+2026-03-12 05:03:56,664 - Epoch 64 completed | Time: 18.23s | Avg Loss: 1.7203 | Avg EPE: 1.9631 | LR: 0.000100
+2026-03-12 05:04:15,154 - Epoch 65 completed | Time: 18.49s | Avg Loss: 1.6988 | Avg EPE: 1.9419 | LR: 0.000100
+2026-03-12 05:04:20,953 - Validation | EPE: 13.3110 | 0.5PER: 99.57% | 1PER: 99.10% | 3PER: 97.10%
+2026-03-12 05:04:39,216 - Epoch 66 completed | Time: 18.26s | Avg Loss: 1.7365 | Avg EPE: 1.9795 | LR: 0.000100
+2026-03-12 05:04:57,500 - Epoch 67 completed | Time: 18.28s | Avg Loss: 1.5943 | Avg EPE: 1.8363 | LR: 0.000100
+2026-03-12 05:05:16,029 - Epoch 68 completed | Time: 18.53s | Avg Loss: 1.6092 | Avg EPE: 1.8515 | LR: 0.000100
+2026-03-12 05:05:34,308 - Epoch 69 completed | Time: 18.28s | Avg Loss: 1.7008 | Avg EPE: 1.9442 | LR: 0.000100
+2026-03-12 05:05:52,651 - Epoch 70 completed | Time: 18.34s | Avg Loss: 1.6856 | Avg EPE: 1.9291 | LR: 0.000100
+2026-03-12 05:05:58,431 - Validation | EPE: 13.3391 | 0.5PER: 99.44% | 1PER: 98.88% | 3PER: 97.00%
+2026-03-12 05:05:58,480 - Checkpoint saved at epoch 70
+2026-03-12 05:06:17,225 - Epoch 71 completed | Time: 18.74s | Avg Loss: 1.5825 | Avg EPE: 1.8252 | LR: 0.000100
+2026-03-12 05:06:35,541 - Epoch 72 completed | Time: 18.31s | Avg Loss: 1.7531 | Avg EPE: 1.9963 | LR: 0.000100
+2026-03-12 05:06:53,843 - Epoch 73 completed | Time: 18.30s | Avg Loss: 1.6083 | Avg EPE: 1.8514 | LR: 0.000100
+2026-03-12 05:07:12,125 - Epoch 74 completed | Time: 18.28s | Avg Loss: 1.6782 | Avg EPE: 1.9214 | LR: 0.000100
+2026-03-12 05:07:30,370 - Epoch 75 completed | Time: 18.25s | Avg Loss: 1.6629 | Avg EPE: 1.9059 | LR: 0.000100
+2026-03-12 05:07:36,171 - Validation | EPE: 13.7473 | 0.5PER: 99.67% | 1PER: 99.30% | 3PER: 97.31%
+2026-03-12 05:07:54,450 - Epoch 76 completed | Time: 18.28s | Avg Loss: 1.7464 | Avg EPE: 1.9901 | LR: 0.000100
+2026-03-12 05:08:12,725 - Epoch 77 completed | Time: 18.28s | Avg Loss: 1.8553 | Avg EPE: 2.0981 | LR: 0.000100
+2026-03-12 05:08:31,011 - Epoch 78 completed | Time: 18.29s | Avg Loss: 1.6000 | Avg EPE: 1.8426 | LR: 0.000100
+2026-03-12 05:08:49,372 - Epoch 79 completed | Time: 18.36s | Avg Loss: 1.6532 | Avg EPE: 1.8959 | LR: 0.000100
+2026-03-12 05:09:07,693 - Epoch 80 completed | Time: 18.32s | Avg Loss: 1.7745 | Avg EPE: 2.0184 | LR: 0.000100
+2026-03-12 05:09:13,399 - Validation | EPE: 13.9202 | 0.5PER: 99.78% | 1PER: 99.47% | 3PER: 97.59%
+2026-03-12 05:09:13,452 - Checkpoint saved at epoch 80
+2026-03-12 05:09:31,925 - Epoch 81 completed | Time: 18.47s | Avg Loss: 1.6326 | Avg EPE: 1.8757 | LR: 0.000100
+2026-03-12 05:09:50,305 - Epoch 82 completed | Time: 18.38s | Avg Loss: 1.6483 | Avg EPE: 1.8907 | LR: 0.000100
+2026-03-12 05:10:08,616 - Epoch 83 completed | Time: 18.31s | Avg Loss: 1.8479 | Avg EPE: 2.0919 | LR: 0.000100
+2026-03-12 05:10:26,919 - Epoch 84 completed | Time: 18.30s | Avg Loss: 1.6344 | Avg EPE: 1.8769 | LR: 0.000100
+2026-03-12 05:10:45,485 - Epoch 85 completed | Time: 18.57s | Avg Loss: 1.6887 | Avg EPE: 1.9315 | LR: 0.000100
+2026-03-12 05:10:51,123 - Validation | EPE: 14.0647 | 0.5PER: 99.74% | 1PER: 99.40% | 3PER: 97.53%
+2026-03-12 05:11:09,533 - Epoch 86 completed | Time: 18.41s | Avg Loss: 1.7225 | Avg EPE: 1.9654 | LR: 0.000100
+2026-03-12 05:11:27,859 - Epoch 87 completed | Time: 18.33s | Avg Loss: 1.7805 | Avg EPE: 2.0241 | LR: 0.000100
+2026-03-12 05:11:46,289 - Epoch 88 completed | Time: 18.43s | Avg Loss: 1.5694 | Avg EPE: 1.8120 | LR: 0.000100
+2026-03-12 05:12:04,533 - Epoch 89 completed | Time: 18.24s | Avg Loss: 1.8229 | Avg EPE: 2.0671 | LR: 0.000100
+2026-03-12 05:12:22,994 - Epoch 90 completed | Time: 18.46s | Avg Loss: 1.6570 | Avg EPE: 1.9000 | LR: 0.000100
+2026-03-12 05:12:28,803 - Validation | EPE: 13.7685 | 0.5PER: 99.45% | 1PER: 98.92% | 3PER: 97.05%
+2026-03-12 05:12:28,855 - Checkpoint saved at epoch 90
+2026-03-12 05:12:47,591 - Epoch 91 completed | Time: 18.74s | Avg Loss: 1.6603 | Avg EPE: 1.9032 | LR: 0.000100
+2026-03-12 05:13:05,826 - Epoch 92 completed | Time: 18.23s | Avg Loss: 1.7705 | Avg EPE: 2.0138 | LR: 0.000100
+2026-03-12 05:13:24,105 - Epoch 93 completed | Time: 18.28s | Avg Loss: 1.7388 | Avg EPE: 1.9820 | LR: 0.000100
+2026-03-12 05:13:42,537 - Epoch 94 completed | Time: 18.43s | Avg Loss: 1.7206 | Avg EPE: 1.9640 | LR: 0.000100
+2026-03-12 05:14:00,800 - Epoch 95 completed | Time: 18.26s | Avg Loss: 1.8202 | Avg EPE: 2.0639 | LR: 0.000100
+2026-03-12 05:14:06,369 - Validation | EPE: 14.5772 | 0.5PER: 99.82% | 1PER: 99.56% | 3PER: 97.76%
+2026-03-12 05:14:24,600 - Epoch 96 completed | Time: 18.23s | Avg Loss: 1.7756 | Avg EPE: 2.0188 | LR: 0.000100
+2026-03-12 05:14:42,895 - Epoch 97 completed | Time: 18.30s | Avg Loss: 1.6419 | Avg EPE: 1.8847 | LR: 0.000100
+2026-03-12 05:15:01,134 - Epoch 98 completed | Time: 18.24s | Avg Loss: 1.6920 | Avg EPE: 1.9352 | LR: 0.000100
+2026-03-12 05:15:19,559 - Epoch 99 completed | Time: 18.42s | Avg Loss: 1.5745 | Avg EPE: 1.8175 | LR: 0.000100
+2026-03-12 05:15:37,849 - Epoch 100 completed | Time: 18.29s | Avg Loss: 1.6117 | Avg EPE: 1.8541 | LR: 0.000100
+2026-03-12 05:15:43,546 - Validation | EPE: 13.8879 | 0.5PER: 99.56% | 1PER: 99.06% | 3PER: 97.10%
+2026-03-12 05:15:43,597 - Checkpoint saved at epoch 100
+2026-03-12 05:16:01,976 - Epoch 101 completed | Time: 18.38s | Avg Loss: 1.6452 | Avg EPE: 1.8878 | LR: 0.000010
+2026-03-12 05:16:20,368 - Epoch 102 completed | Time: 18.39s | Avg Loss: 1.4206 | Avg EPE: 1.6619 | LR: 0.000010
+2026-03-12 05:16:38,683 - Epoch 103 completed | Time: 18.32s | Avg Loss: 1.5626 | Avg EPE: 1.8046 | LR: 0.000010
+2026-03-12 05:16:57,029 - Epoch 104 completed | Time: 18.35s | Avg Loss: 1.6725 | Avg EPE: 1.9152 | LR: 0.000010
+2026-03-12 05:17:15,311 - Epoch 105 completed | Time: 18.28s | Avg Loss: 1.5229 | Avg EPE: 1.7647 | LR: 0.000010
+2026-03-12 05:17:20,852 - Validation | EPE: 14.0408 | 0.5PER: 99.72% | 1PER: 99.39% | 3PER: 97.45%
+2026-03-12 05:17:39,181 - Epoch 106 completed | Time: 18.33s | Avg Loss: 1.5571 | Avg EPE: 1.7992 | LR: 0.000010
+2026-03-12 05:17:57,362 - Epoch 107 completed | Time: 18.18s | Avg Loss: 1.5845 | Avg EPE: 1.8274 | LR: 0.000010
+2026-03-12 05:18:15,697 - Epoch 108 completed | Time: 18.33s | Avg Loss: 1.6678 | Avg EPE: 1.9105 | LR: 0.000010
+2026-03-12 05:18:33,880 - Epoch 109 completed | Time: 18.18s | Avg Loss: 1.4477 | Avg EPE: 1.6896 | LR: 0.000010
+2026-03-12 05:18:52,157 - Epoch 110 completed | Time: 18.28s | Avg Loss: 1.5502 | Avg EPE: 1.7925 | LR: 0.000010
+2026-03-12 05:18:57,845 - Validation | EPE: 14.0472 | 0.5PER: 99.75% | 1PER: 99.42% | 3PER: 97.50%
+2026-03-12 05:18:57,893 - Checkpoint saved at epoch 110
+2026-03-12 05:19:16,664 - Epoch 111 completed | Time: 18.77s | Avg Loss: 1.6329 | Avg EPE: 1.8752 | LR: 0.000010
+2026-03-12 05:19:34,872 - Epoch 112 completed | Time: 18.21s | Avg Loss: 1.4993 | Avg EPE: 1.7407 | LR: 0.000010
+2026-03-12 05:19:52,949 - Epoch 113 completed | Time: 18.08s | Avg Loss: 1.4873 | Avg EPE: 1.7291 | LR: 0.000010
+2026-03-12 05:20:11,025 - Epoch 114 completed | Time: 18.08s | Avg Loss: 1.5492 | Avg EPE: 1.7915 | LR: 0.000010
+2026-03-12 05:20:29,042 - Epoch 115 completed | Time: 18.02s | Avg Loss: 1.6178 | Avg EPE: 1.8601 | LR: 0.000010
+2026-03-12 05:20:34,589 - Validation | EPE: 14.0513 | 0.5PER: 99.66% | 1PER: 99.28% | 3PER: 97.29%
+2026-03-12 05:20:52,615 - Epoch 116 completed | Time: 18.03s | Avg Loss: 1.4784 | Avg EPE: 1.7205 | LR: 0.000010
+2026-03-12 05:21:10,621 - Epoch 117 completed | Time: 18.01s | Avg Loss: 1.6460 | Avg EPE: 1.8890 | LR: 0.000010
+2026-03-12 05:21:28,631 - Epoch 118 completed | Time: 18.01s | Avg Loss: 1.4779 | Avg EPE: 1.7198 | LR: 0.000010
+2026-03-12 05:21:46,802 - Epoch 119 completed | Time: 18.17s | Avg Loss: 1.5508 | Avg EPE: 1.7930 | LR: 0.000010
+2026-03-12 05:22:04,846 - Epoch 120 completed | Time: 18.04s | Avg Loss: 1.4256 | Avg EPE: 1.6673 | LR: 0.000010
+2026-03-12 05:22:10,334 - Validation | EPE: 13.8817 | 0.5PER: 99.67% | 1PER: 99.28% | 3PER: 97.32%
+2026-03-12 05:22:10,382 - Checkpoint saved at epoch 120
+2026-03-12 05:22:28,445 - Epoch 121 completed | Time: 18.06s | Avg Loss: 1.5910 | Avg EPE: 1.8334 | LR: 0.000010
+2026-03-12 05:22:46,599 - Epoch 122 completed | Time: 18.15s | Avg Loss: 1.6185 | Avg EPE: 1.8610 | LR: 0.000010
+2026-03-12 05:23:04,628 - Epoch 123 completed | Time: 18.03s | Avg Loss: 1.4208 | Avg EPE: 1.6626 | LR: 0.000010
+2026-03-12 05:23:22,699 - Epoch 124 completed | Time: 18.07s | Avg Loss: 1.5116 | Avg EPE: 1.7536 | LR: 0.000010
+2026-03-12 05:23:40,737 - Epoch 125 completed | Time: 18.04s | Avg Loss: 1.5600 | Avg EPE: 1.8019 | LR: 0.000010
+2026-03-12 05:23:46,161 - Validation | EPE: 13.7087 | 0.5PER: 99.49% | 1PER: 98.95% | 3PER: 97.02%
+2026-03-12 05:24:04,132 - Epoch 126 completed | Time: 17.97s | Avg Loss: 1.6007 | Avg EPE: 1.8435 | LR: 0.000010
+2026-03-12 05:24:22,166 - Epoch 127 completed | Time: 18.03s | Avg Loss: 1.6295 | Avg EPE: 1.8720 | LR: 0.000010
+2026-03-12 05:24:40,203 - Epoch 128 completed | Time: 18.04s | Avg Loss: 1.6130 | Avg EPE: 1.8556 | LR: 0.000010
+2026-03-12 05:24:58,191 - Epoch 129 completed | Time: 17.99s | Avg Loss: 1.5312 | Avg EPE: 1.7735 | LR: 0.000010
+2026-03-12 05:25:16,261 - Epoch 130 completed | Time: 18.07s | Avg Loss: 1.5019 | Avg EPE: 1.7435 | LR: 0.000010
+2026-03-12 05:25:21,658 - Validation | EPE: 13.9061 | 0.5PER: 99.67% | 1PER: 99.28% | 3PER: 97.33%
+2026-03-12 05:25:21,717 - Checkpoint saved at epoch 130
+2026-03-12 05:25:39,892 - Epoch 131 completed | Time: 18.17s | Avg Loss: 1.4857 | Avg EPE: 1.7279 | LR: 0.000010
+2026-03-12 05:25:57,799 - Epoch 132 completed | Time: 17.91s | Avg Loss: 1.4447 | Avg EPE: 1.6867 | LR: 0.000010
+2026-03-12 05:26:15,780 - Epoch 133 completed | Time: 17.98s | Avg Loss: 1.6552 | Avg EPE: 1.8984 | LR: 0.000010
+2026-03-12 05:26:33,748 - Epoch 134 completed | Time: 17.97s | Avg Loss: 1.5697 | Avg EPE: 1.8127 | LR: 0.000010
+2026-03-12 05:26:51,827 - Epoch 135 completed | Time: 18.08s | Avg Loss: 1.4297 | Avg EPE: 1.6712 | LR: 0.000010
+2026-03-12 05:26:57,335 - Validation | EPE: 13.8121 | 0.5PER: 99.62% | 1PER: 99.19% | 3PER: 97.25%
+2026-03-12 05:27:15,315 - Epoch 136 completed | Time: 17.98s | Avg Loss: 1.5043 | Avg EPE: 1.7461 | LR: 0.000010
+2026-03-12 05:27:33,258 - Epoch 137 completed | Time: 17.94s | Avg Loss: 1.5663 | Avg EPE: 1.8082 | LR: 0.000010
+2026-03-12 05:27:51,385 - Epoch 138 completed | Time: 18.13s | Avg Loss: 1.5925 | Avg EPE: 1.8344 | LR: 0.000010
+2026-03-12 05:28:09,336 - Epoch 139 completed | Time: 17.95s | Avg Loss: 1.6603 | Avg EPE: 1.9031 | LR: 0.000010
+2026-03-12 05:28:27,299 - Epoch 140 completed | Time: 17.96s | Avg Loss: 1.4653 | Avg EPE: 1.7071 | LR: 0.000010
+2026-03-12 05:28:32,717 - Validation | EPE: 13.8928 | 0.5PER: 99.55% | 1PER: 99.06% | 3PER: 97.12%
+2026-03-12 05:28:32,766 - Checkpoint saved at epoch 140
+2026-03-12 05:28:50,823 - Epoch 141 completed | Time: 18.06s | Avg Loss: 1.5961 | Avg EPE: 1.8383 | LR: 0.000010
+2026-03-12 05:29:08,831 - Epoch 142 completed | Time: 18.01s | Avg Loss: 1.5759 | Avg EPE: 1.8185 | LR: 0.000010
+2026-03-12 05:29:26,834 - Epoch 143 completed | Time: 18.00s | Avg Loss: 1.5956 | Avg EPE: 1.8381 | LR: 0.000010
+2026-03-12 05:29:44,802 - Epoch 144 completed | Time: 17.97s | Avg Loss: 1.5200 | Avg EPE: 1.7620 | LR: 0.000010
+2026-03-12 05:30:02,809 - Epoch 145 completed | Time: 18.01s | Avg Loss: 1.4974 | Avg EPE: 1.7398 | LR: 0.000010
+2026-03-12 05:30:08,334 - Validation | EPE: 14.0250 | 0.5PER: 99.65% | 1PER: 99.25% | 3PER: 97.32%
+2026-03-12 05:30:26,275 - Epoch 146 completed | Time: 17.94s | Avg Loss: 1.4917 | Avg EPE: 1.7339 | LR: 0.000010
+2026-03-12 05:30:31,601 - Validation | EPE: 13.8059 | 0.5PER: 99.52% | 1PER: 99.02% | 3PER: 97.07%

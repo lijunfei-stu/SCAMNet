@@ -21,10 +21,10 @@ import os
 from tqdm import tqdm  # 导入进度条库
 
 # 导入自定义模块
-from config import Config
+from tools.config import Config
 from dataset.scared_dataset import ScaredDataset  # SCARED 数据集类
-from model.loss import CharbonnierLossWithMask, LeftRightConsistencyLoss  # ACVNet损失函数
-from utils import setup_logger, compute_epe, compute_pixel_error, save_checkpoint  # 工具函数
+from tools.loss import CharbonnierLossWithMask, LeftRightConsistencyLoss  # ACVNet损失函数
+from tools.utils import setup_logger, compute_epe, compute_pixel_error, save_checkpoint  # 工具函数
 
 # from model.NMSCANet import NMSCANet  # NMSCANet 模型
 from model.NMSCANet_optimize1 import NMSCANet  # NMSCANet 模型

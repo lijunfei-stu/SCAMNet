@@ -2,7 +2,6 @@
 # 主训练脚本
 
 import torch
-import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
 import numpy as np
@@ -10,11 +9,11 @@ import random
 import os
 import time
 
-from config import Config
+from tools.config import Config
 from dataset.scared_dataset import ScaredDataset
 from model.NMSCANet import NMSCANet
-from model.loss import SmoothL1LossWithMask
-from utils import setup_logger, compute_epe, compute_pixel_error, save_checkpoint
+from tools.loss import SmoothL1LossWithMask
+from tools.utils import setup_logger, compute_epe, compute_pixel_error, save_checkpoint
 
 def set_seed(seed):
     random.seed(seed)

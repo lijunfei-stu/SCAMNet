@@ -1,6 +1,8 @@
 # test.py
 # 使用训练好的 NMSCANet 模型对双目图像进行视差预测，并基于重投影矩阵Q生成深度图、点云图（带耗时统计）
 import torch
+
+
 from PIL import Image
 import numpy as np
 import os
@@ -128,18 +130,19 @@ def save_pointcloud(point_cloud, save_path):
 
 
 def main():
-    # ==================== 配置参数（请根据实际情况修改） ====================
+    # todo ==================== 配置参数（请根据实际情况修改） ====================
     # 输入图像路径
-    left_path = r"C:\Users\12700\Desktop\All_datasets\SCARED\TEST\dataset_2\keyframe_1\data\left_finalpass\frame_data000000.png"  # 左图路径
-    right_path = r"C:\Users\12700\Desktop\All_datasets\SCARED\TEST\dataset_2\keyframe_1\data\right_finalpass\frame_data000000.png"  # 右图路径
+    left_path = r"/home/ubuntu2404/Desktop/All_datasets/SCARED/TRAIN/dataset_1/keyframe_3/data/left_finalpass/frame_data000000.png"  # 左图路径
+    right_path = r"/home/ubuntu2404/Desktop/All_datasets/SCARED/TRAIN/dataset_1/keyframe_3/data/right_finalpass/frame_data000000.png"  # 右图路径
     # 模型权重文件路径
     checkpoint_path = r"C:\Users\12700\Desktop\All_datasets\weights_results\SCAMNet\checkpoints\best.pth"  # 训练好的模型权重
     # 重投影矩阵Q文件路径
-    q_json_path = r"C:\Users\12700\Desktop\All_datasets\SCARED\TEST\frame_data000000.json"
+    q_json_path = r"/home/ubuntu2404/Desktop/All_datasets/SCARED/TRAIN/dataset_1/keyframe_3/data/reprojection_data/frame_data000000.json"
     # 输出文件路径配置
     output_disp_path = "./infer_result/disparity.npy"  # 视差图保存路径
     output_depth_path = "./infer_result/depth.npy"  # 深度图保存路径
     output_pcd_path = "./infer_result/point_cloud.ply"  # 点云保存路径
+    # todo ================================================================
 
     # 模型结构参数（如果 checkpoint 中未保存 config，则使用以下默认值）
     max_disp = 192  # 最大视差

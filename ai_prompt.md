@@ -1,6 +1,8 @@
 解决问题的一些参考链接：
 解决ubuntu24.04无法上传代码到github 的问题：https://blog.csdn.net/Dasi_C_upup/article/details/151193854
 
+如果遇到ubuntu无法github的问题，修改 Git 远程地址为 SSH 格式：git remote set-url origin git@github.com:lijunfei-stu/SCAMNet.git
+
 阅读这个文献，回答我的后续问题，我后续打算复现这个文献中的NMSCANet网络
 
 我现在希望根据这网络完成整个训练流程，我现在已经有了数据集加载代码，请据此帮我补充完成后面所需要的损失函数和训练主函数等其他需要的代码，我的描述可能不是很专业，请根据深度学习的训练流程 ，给我详细准确的答案，一些代码文件你可以自己命名，但是需要给出详细的注释。我现在的虚拟环境为：python=3.8 torch= 2.7.1+cu128。
